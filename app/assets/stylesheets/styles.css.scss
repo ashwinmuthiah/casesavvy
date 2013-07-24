@@ -1,13 +1,20 @@
 $navbarBackgroundHighlight: black;
 $navbarBackground: black;
+$navbarHeight: 50px;
+$navbarLinkBackgroundHover: transparent;
 
 
 
 @import 'bootstrap';
 
-body {
-	padding-top: 80px;
+.homepadding {	
+	padding-top: 20px;
 }
+
+body {
+	padding-top: 70px;
+}
+
 
 @import 'bootstrap-responsive';
 
@@ -16,9 +23,6 @@ body {
 	background-color: white;
 }
 
-.header {
-	color: white;
-}
 
 .footer {
 
@@ -31,6 +35,13 @@ body {
 
 .navbar .nav > li > a {
   color: #e5e5e5;
+}
+
+.navbar .nav .ksb {
+	/*modify the kimberlysavannahboylan on the right side of menu bar */
+	color: gray;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .navbar .brand {
@@ -51,7 +62,7 @@ body {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
-	width: 214px;
+	
 }
 
 .box img {
@@ -60,6 +71,10 @@ body {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+}
+
+.ex {
+	/* Make styling edits to exhibitions home page here */
 }
 
 

@@ -5,7 +5,10 @@
 	  <div class="row-fluid">
 	    <div class="span3">
 	      <%#img src="savvy.jpg", class="img-rounded"/%>
-	      <%= link_to (image_tag("https://s3.amazonaws.com/boylan-art/savvy.JPG")), root_path %>
+	      <%# in box tag to give it style - try taking it out if looks bad %>
+	      <div class = "box">
+	      <%= link_to (image_tag("https://s3.amazonaws.com/boylan-art/savvy.JPG")), root_path, class: "img-rounded" %>
+	    </div>
 	    </div>
 	    <div class="span9">
 	      Boylan began her career portraying a most basic element, a necessary substance to survive in an extravagant light, giving food the spotlight it well deserves.
