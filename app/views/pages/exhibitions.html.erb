@@ -1,16 +1,85 @@
 <h3>Welcome to the Exhibitions Page</h3>
 
 <table class="table">
-	
-	<td>
-		<h5><%= link_to "Abstract", '#', class: "btn" %></h5>
-		<p>This exhibition contains the abstract pieces of artwork that Boylan has been painting in recent years.</p>
-	</td>
-	<td class="ex"><%= link_to (image_tag("https://s3.amazonaws.com/boylan-art/Abstract/IMG_3768.jpeg")), '#', class: "img-rounded" %></td>
-	<td>
-		<h5><%= link_to "Food", '#', class: "btn" %></h5>
-		<p>This exhibition contains the pieces of art with food-centric focus. The pieces are meant to invoke a deep sense of questioning: do we take for granted what we need most to survive?</p>
-	</td>
-	<td class = "ex"><%= link_to (image_tag("https://s3.amazonaws.com/boylan-art/Food/FINAL+APPLE+2.jpeg")), '#', class: "img-rounded" %></td>
+	<tr>
+		<td>
+			<h5><%= link_to "Abstract", '#', class: "btn" %></h5>
+			<p>This exhibition contains the abstract pieces of artwork that Boylan has been painting in recent years.</p>
+		</td>
+		<td class="ex"><div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+<div class="carousel-inner">
+      <div class="item active">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>First label</h4>
+          <p>A working Bootstrap carousel example.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>Second label</h4>
+          <p>This is the second slide text.</p>
+          </div>
+      </div>
+      <div class="item">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>Third label</h4>
+          <p>Take note of the 'active' and 'slide' classes.</p>
+        </div>
+      </div>
+    </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<h5><%= link_to "Food", '#', class: "btn" %></h5>
+			<p>This exhibition contains the pieces of art with food-centric focus. The pieces are meant to invoke a deep sense of questioning: do we take for granted what we need most to survive?</p>
+		</td>
+		<td class = "ex"><div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+<div class="carousel-inner">
+      <div class="item active">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>First label</h4>
+          <p>A working Bootstrap carousel example.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>Second label</h4>
+          <p>This is the second slide text.</p>
+          </div>
+      </div>
+      <div class="item">
+        <img src="//twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" width="100%">
+        <div class="carousel-caption">
+          <h4>Third label</h4>
+          <p>Take note of the 'active' and 'slide' classes.</p>
+        </div>
+      </div>
+    </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+		</td>
+	</tr>
 </tbody>
 </table>

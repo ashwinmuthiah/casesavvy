@@ -1,6 +1,6 @@
 Casesavvy::Application.routes.draw do
   
-
+  get 'test' => 'pages#test'
   get 'exhibitions' => 'pages#exhibitions'
   get 'about' => 'pages#about2'
   root :to => 'pages#home'
